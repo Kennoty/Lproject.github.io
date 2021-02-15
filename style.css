@@ -1,0 +1,117 @@
+
+
+body {
+  background: url("https://besthqwallpapers.com/Uploads/15-5-2019/92138/thumb2-gray-asphalt-texture-asphalt-background-road-background-asphalt-gray-stone-background.jpg");
+  padding:100px;
+}
+
+.container {
+  width:1000px;
+  min-height:800px;
+  margin: 0 auto;
+  background: silver;
+}
+
+.header {
+}
+
+.title-block {
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background: url("https://images.unsplash.com/photo-1503780099440-e6ab046a1d71?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1406&q=80") no-repeat center center/cover;
+}
+
+.title-block h1{
+  color: white;
+  opacity: 0.9;
+}
+
+.nav {
+  justify-content: center;
+  align-items: center;
+  border-left: 5px solid silver;
+  border-right: 5px solid silver;
+  border-top: 5px solid silver;
+  background: black;
+}
+
+.nav li {
+  display:flex;
+}
+
+
+.nav a {
+  padding:20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav a img{
+  width:100%;
+  height: 120px;
+}
+
+.nav li a {
+  border-right:2px solid white;
+  transition: background .3s ease;
+}
+
+.nav li a:hover {
+  background: silver;
+  color:black;
+}
+
+.content-wrapper {
+  display:flex;
+  margin-top: 30px;
+}
+
+.content {
+  width: 80%;
+  line-height: 20px;
+}
+
+.sidebar {
+  width: 20%;
+  margin-left: 80px;
+  background-color: black;
+  color:white;
+  border-right: 5px solid silver;
+  padding-right: 10px;
+}
+
+.sidebar li {
+  font-size: 20px;
+}
+
+.menu li {
+  margin: 10px 0;
+  transition: transform .5s ease;
+  cursor:pointer;
+  margin-left: 5px;
+  border-bottom: 2px solid white;
+}
+
+.menu li:hover {
+  transform: translateX(10px);
+  background:silver;
+  color: black;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
